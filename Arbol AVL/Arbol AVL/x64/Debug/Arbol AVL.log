@@ -1,0 +1,27 @@
+﻿Build started 29/10/2016 11:42:19 a.m..
+     1>Project "D:\U\6to Sem\Estructuras\Arbol AVL\Arbol AVL\Arbol AVL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Programas\visual\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\u\6to sem\estructuras\arbol avl\arbol avl\avl.h(169): warning C4101: 'resp': unreferenced local variable
+         d:\u\6to sem\estructuras\arbol avl\arbol avl\avl.h(155): note: while compiling class template member function 'bool AVL<int>::insertar(T,Nodo<T> *&)'
+                 with
+                 [
+                     T=int
+                 ]
+         d:\u\6to sem\estructuras\arbol avl\arbol avl\main.cpp(26): note: see reference to function template instantiation 'bool AVL<int>::insertar(T,Nodo<T> *&)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+         d:\u\6to sem\estructuras\arbol avl\arbol avl\main.cpp(6): note: see reference to class template instantiation 'AVL<int>' being compiled
+     1>d:\u\6to sem\estructuras\arbol avl\arbol avl\avl.h(193): warning C4101: 'resp': unreferenced local variable
+     1>d:\u\6to sem\estructuras\arbol avl\arbol avl\avl.h(383): warning C4715: 'AVL<int>::validarAVL': not all control paths return a value
+       Link:
+         D:\Programas\visual\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\U\6to Sem\Estructuras\Arbol AVL\x64\Debug\Arbol AVL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\U\6to Sem\Estructuras\Arbol AVL\x64\Debug\Arbol AVL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\U\6to Sem\Estructuras\Arbol AVL\x64\Debug\Arbol AVL.lib" /MACHINE:X64 x64\Debug\main.obj
+         Arbol AVL.vcxproj -> D:\U\6to Sem\Estructuras\Arbol AVL\x64\Debug\Arbol AVL.exe
+     1>Done Building Project "D:\U\6to Sem\Estructuras\Arbol AVL\Arbol AVL\Arbol AVL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.30
